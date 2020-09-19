@@ -1,0 +1,11 @@
+1. Apache nifi
+https://www.tutorialspoint.com/data_structures_algorithms/graph_data_structure.htm
+3 hadoop = store + processing
+4. HBASE = store + processing
+5. spark = processing
+HDFS = hadoop data file storage
+orc, auro, json, rc
+spark apache imp - scala +paython
+olap-online analytics process
+
+oltp-online transaction process
