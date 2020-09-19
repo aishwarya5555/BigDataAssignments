@@ -1,0 +1,54 @@
+Question 65 pts
+In a list of distinct numbers, print list of all number pairs.
+e.g. (x, y) and (p, q) such that x * y = p * q, where:
+x, y, p, and q are distinct elements. If there are multiple answers, then print any one of them.
+You have to use Java HashMap for solving this problem.
+
+Constraints
+If no pairs are found then it should print 'No pairs found'.
+
+Input Format
+The first line denotes the number of integers n to be inserted in the list.
+Next n lines contain n integers to be inserted in the List.
+Output Format
+The output should contain the x & y integers and p & q integers in the given format.
+
+Sample Test Cases
+
+Sample Input #1
+7
+5 
+4 
+1 
+10 
+9 
+3 
+8
+
+Sample Output #1
+(5, 8) and (4, 10)
+
+Explanation #1: 5*8 = 4*10
+
+Sample Input #2
+7
+65 
+30 
+7 
+90 
+1 
+9 
+8
+
+Sample Output #2
+No pairs found
+
+Expected Solution Format: You need to paste the Java code executed to perform this task
+
+HTML EditorKeyboard Shortcuts
+
+ 12pt Paragraph 
+
+ 0 words
+ 
+Flag this Question

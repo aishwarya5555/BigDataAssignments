@@ -1,0 +1,61 @@
+Question 45 pts
+In a company, there are exactly N managers and M subordinates. Each of these managers manage arbitrary number of subordinates. 
+However, each subordinate is managed by exactly one manager. For each subordinate, you are given the subordinate's name and age.
+
+We need to print the name of the manager and the name and age of the subordinates that he/she manages.
+However, there is a catch here. We need to print the list of manager in the Lexicographical order of their names and each manager should contain a list of sub-ordinates he/she manages.
+
+In addition, the subordinates appearing in individual managers list should appear in the Increasing order of their Age.
+
+Note: Lexicographic or lexicographical order is a generalization of the way words are alphabetically ordered based on the alphabetical order of their component letters.
+
+Input Format
+The first line contains two integers N and M denoting the number of managers and the number of subordinates respectively.
+Each of the next N lines contain a single string denoting a manager’s name.
+It is guaranteed that each manager's name shall be unique.
+The next M lines contain 2 Strings and an Integer - denoting the manager's name, a subordinate's name being managed by that manager and that subordinate's Age. 
+It is guaranteed that each subordinate's name shall be unique and shall appear only once in the Input.
+
+Output Format
+
+Your output should:
+Print N+M lines.
+Print the manager's name first and then the name and age of each subordinate managed by that manager.
+The list of each manager should appear in order of their lexicographical rank in comparison to all other managers.
+ For example, the list of the manager with the lexicographically smallest name should appear first, then the list of the manager with the 2nd smallest lexicographical name and so on.
+The subordinates in a manager's list should appear in increasing order of their age.
+
+Constraints
+1<= N<=1000
+1<= M < 107
+1<= Age of each subordinate <= 106
+1<= length of subordinate & manager name <=35
+Strings are case-sensitive. For example, string ’learner’ & ‘Learner’ are different.
+The Name of each manager and subordinate will consist of lower-case alphabets only.
+It is guaranteed that no two subordinates of the same age shall appear in the same manager's List.
+ 
+
+Hint: You need to use Comparable Interface here.
+
+Sample Test Cases
+
+Sample Input
+3 4
+robin
+peter
+kelvin
+robin eric 21
+kelvin john 22
+peter bob 19
+robin tourist 19
+
+Sample Output
+kelvin
+john 22
+peter
+bob 19
+robin
+tourist 19
+eric 21
+
+Expected Solution Format: You need to paste the Java code executed to perform this task

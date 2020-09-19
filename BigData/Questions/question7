@@ -1,0 +1,34 @@
+Question 75 pts
+You will be given 6 integers as mentioned in the input format. Store them in an ArrayList. After that, you have to use various methods of the ArrayList class and implement the following sequence of actions on that ArrayList: 
+
+1. Print the 3rd element from the beginning
+2. Replace the 5th element from the beginning with integer 8
+3. Print the 5th element from the beginning
+4. Print the index of the element 56
+5. Add the element 44 at index 2
+6. Print the 5th element from the beginning
+7. Remove the element at index 1
+8. Print the index of the element 9
+Sample Test Cases
+
+Sample Input
+85 
+44 
+33 
+1 
+9 
+56
+
+Sample Output
+33 8 5 1 -1
+
+
+Expected Solution Format:You need to paste the Java code executed to perform this task
+
+HTML EditorKeyboard Shortcuts
+
+ 12pt Paragraph 
+
+ 0 words
+ 
+Flag this Question

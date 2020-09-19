@@ -1,0 +1,37 @@
+Question 35 pts
+A string G is said to be a subset of a given string S if it can be formed by removing zero or more characters from the given string S.
+
+You are given couple of strings S1 and S2 and you must find out if a string G can be formed which is a subset of both the strings S1 and S2 or not. Once found,
+ you have to print the length of the common string G.
+
+Input Format
+ The first line contains the string S1.
+ The second line contains the string S2.
+
+Output Format
+The output should contain an integer value denoting the length of the common string G.
+If nothing matches, the output should be 0.
+
+Constraints
+Strings are case-sensitive. For example, string ’learner’ & ‘Learner’ are different.
+0 < length(S1) < 100
+0 < length(S2) < 100
+Sample Test Cases
+
+Input
+RAMESH
+RAJESH
+
+Output
+5
+
+Explanation:
+Because RAESH is the common subset of both the strings.
+
+Input
+RAMESH
+ramesh
+Output
+0
+Explanation: Because strings are case-sensitive. 
+Expected Solution Format: You need to paste the Java code executed to perform this task

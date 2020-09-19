@@ -1,0 +1,37 @@
+Question 15 pts
+Write a program to merge two sorted arrays in descending order.
+
+Input Format
+The first line denotes the number of elements n to be inserted in the first sorted array.
+The second line denotes the number of elements m to be inserted in the second sorted array.
+The next n lines contain all the n sorted elements to be inserted in the first sorted array.
+The next m lines contain all the m sorted elements to be inserted in the second sorted array.
+
+Output Format
+The output will contain the merged sorted array in the descending order where each element will be printed in a separate line.
+
+Constraints
+0 < array size <= 100000
+Sample Test Cases
+
+Sample Input
+3
+4
+1
+5
+10
+2
+4
+7
+12
+
+Sample Output
+12
+10
+7
+5
+4
+2
+1
+
+Expected Solution Format: You need to paste the Java code executed to perform this task

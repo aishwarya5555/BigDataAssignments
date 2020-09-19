@@ -1,0 +1,40 @@
+Question 25 pts
+A new tech start-up is trying to experiment with their employee hierarchy structure. They are maintaining a hierarchy structure where the employee id is organized according to a Binary Search Tree.
+
+Write a program to arrange the given employee id in a Binary Search Tree format & then find the immediate reporting manager of any given employee in the organization.
+  34
+ / \
+23 83
+   / \
+  77 99
+ / \
+55 80
+
+Input Format
+The first line should contain the number of employees n to be inserted in the tree.
+The second line should contain the employee id for which we need to find the immediate reporting manager.
+The next n lines should contain the employee ids to form the binary search tree.
+
+Output Format
+The output should print the immediate reporting manager of the given employee id.
+
+Constraints
+If the employee is the root element of the tree, then the output should be his/her own employee id.
+If the employee id doesn't exist,  print 'Employee Not Found'.
+0 < n < 100
+Sample Test Cases
+Sample Input
+7
+55
+34
+23
+83
+77
+99
+55
+80
+
+Sample Output
+77
+
+Expected Solution Format: You need to paste the Java code executed to perform this task

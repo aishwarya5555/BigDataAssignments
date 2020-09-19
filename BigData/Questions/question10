@@ -1,0 +1,46 @@
+
+Question 105 pts
+Write a Java program to move the last element of the linked list in the front and rest of the element by one position, and then print the modified linked list.
+
+NOTE: Remember you cannot use the LinkedList java class and its methods, you have to make your own LinkedList class and methods.
+Input Format
+The first line denotes the number of integers n in the linked list.
+Next n lines contain n integers to be included in the linked list.
+
+Output Format
+The output contains n space-separated integers of the modified linked list.
+
+Hint: Maintain two pointers in the list, one for the last element and the other to keep a track of its previous node.
+
+Sample Test Cases
+Sample Input
+5
+7 
+32 
+81 
+47 
+78
+
+Sample Output
+78 7 32 81 47
+
+Expected Solution Format: You need to paste the Java code executed to perform this task
+HTML EditorKeyboard Shortcuts
+
+ 12pt Paragraph 
+
+ 0 words
+Quiz saved at 7:59pm 
+Questions
+Haven't Answered YetQuestion 1
+Haven't Answered YetQuestion 2
+Haven't Answered YetQuestion 3
+Haven't Answered YetQuestion 4
+Haven't Answered YetQuestion 5
+Haven't Answered YetQuestion 6
+Haven't Answered YetQuestion 7
+Haven't Answered YetQuestion 8
+Haven't Answered YetQuestion 9
+Haven't Answered YetQuestion 10
+Time Elapsed: Hide
+Attempt due: Sep 30 at 11:59pm

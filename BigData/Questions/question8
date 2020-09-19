@@ -1,0 +1,27 @@
+Question 85 pts
+Write a Java program to insert the input values into an ArrayList and print the sum of elements (integers) present at even index of the ArrayList. You have to use an iterator to read all the elements of the list.
+Input Format
+The first line denotes the number of integers n to be inserted in the ArrayList.
+Next n lines contain n integers to be included in the ArrayList.
+Output Format
+The output should contain the sum of the elements present at even indexes.
+
+Sample Test Cases
+
+Sample Input
+5
+55 
+24 
+36 
+64 
+76
+
+Sample Output
+167
+
+Expected Solution Format: You need to paste the Java code executed to perform this task
+HTML EditorKeyboard Shortcuts
+
+ 12pt Paragraph 
+
+ 0 words

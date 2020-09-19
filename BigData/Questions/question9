@@ -1,0 +1,46 @@
+ 
+Flag this Question
+Question 95 pts
+Write a Java program to:
+Find and remove the duplicate strings in a linked list.
+Store the strings in a linked list and then traverse it to find the duplicates, delete them from the list and do the proper linking of the previous and the next element in the list.
+ 
+
+NOTE: Don’t use the methods of LinkedList class of Java, write your own logic. Although, you can use the methods of the String class.
+
+Constraints            
+While removing the duplicate element, you should exclude the first occurrence of the element.
+Strings are case-sensitive. For example, string ’learner’ & ‘Learner’ are different.
+ 
+
+Input Format
+The first line denotes the number of integers n in the linked list.
+The next n lines contain n strings to be included in the linked list.
+
+Output Format
+The output contains the strings in the same sequence but without duplicates.
+Sample Test Cases
+Sample Input
+6
+Hello World
+Data Structure
+Building Blocks
+Edureka
+Edureka
+Data Structure
+
+Sample Output
+Hello World
+Data Structure
+Building Blocks
+Edureka
+
+
+Expected Solution Format: You need to paste the Java code executed to perform this task
+HTML EditorKeyboard Shortcuts
+
+ 12pt Paragraph 
+
+ 0 words
+ 
+Flag this Question

@@ -1,0 +1,67 @@
+Question 55 pts
+Write a Java program that takes an array of strings as input and returns the sorted array. Use the Quick Sort algorithm for this program.
+
+Sorting needs to be done based on the size of each string. So, a string with fewer characters should come before another string with a greater number of characters. 
+Also, in case of strings having the same size, it is NOT to be sorted in alphabetical order.
+
+As Quick Sort is not a stable sorting algorithm, the order of the input strings passed also need NOT be maintained in that case. 
+Just implement the Quick Sort algorithm correctly based on size of strings to get the desired output.
+
+NOTE: The code will take the size of the array and its elements as inputs.
+
+Constraints            
+Strings are case-sensitive. For example, string ’learner’ & ‘Learner’ are different. 
+
+Input Format
+ The first line denotes the number of strings n to be inserted in the array.
+ The next n lines contain all the strings to be inserted in the array.
+Output Format
+ For n lines of input, print n lines containing sorted strings based on the size of each string.
+Sample Test Cases
+Sample Input
+8
+Charles
+Thomas
+Zonas
+Lee
+Anderson
+Parker
+Neo
+Vaughan
+
+Sample Output
+Lee
+Neo
+Zonas
+Parker
+Thomas
+Charles
+Vaughan
+Anderson
+
+Sample Input
+4
+Reshma
+Ayushi
+Ashish
+Sahiti
+
+Sample Output
+Reshma
+Ayushi
+Ashish
+Sahiti
+Expected Solution Format: You need to paste the Java code executed to perform this task
+
+ 
+https://www.tutorialspoint.com/data_structures_algorithms/graph_data_structure.htm
+HTML EditorKeyboard Shortcuts
+
+ 12pt Paragraph 
+
+ 0 words
+ 
+Flag this Question
+
+
+
