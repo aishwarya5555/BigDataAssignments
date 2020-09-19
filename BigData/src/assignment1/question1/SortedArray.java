@@ -12,12 +12,12 @@ public class SortedArray {
 		int sizeOfSecondArray  = scanner.nextInt();
 	  	    	   
 	    int[] firstArray = new int[sizeOfFirstArray];
-	    System.out.println("Enter firstArray");
+	    System.out.println("Enter sorted firstArray");
 		for (int i = 0; i < sizeOfFirstArray; i++) {
 			firstArray[i] = scanner.nextInt();
 		}
 	    int[] secondArray = new int[sizeOfSecondArray];
-	    System.out.println("Enter secondArray");
+	    System.out.println("Enter sorted secondArray");
 		for (int i = 0; i < sizeOfSecondArray; i++) {
 			secondArray[i] = scanner.nextInt();
 		}

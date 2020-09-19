@@ -1,5 +1,6 @@
 Question 75 pts
-You will be given 6 integers as mentioned in the input format. Store them in an ArrayList. After that, you have to use various methods of the ArrayList class and implement the following sequence of actions on that ArrayList: 
+You will be given 6 integers as mentioned in the input format. Store them in an ArrayList. After that, 
+you have to use various methods of the ArrayList class and implement the following sequence of actions on that ArrayList: 
 
 1. Print the 3rd element from the beginning
 2. Replace the 5th element from the beginning with integer 8

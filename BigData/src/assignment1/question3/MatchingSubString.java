@@ -20,23 +20,28 @@ public class MatchingSubString {
 				firstStrSubStrCombi.add(firstStrArray.substring(i, j));
 			}
 		}
-		
+		System.out.println("Enter first string::" + firstStrSubStrCombi.toString());
 		List<String> secondStrSubStrCombi = new ArrayList<String>();
 		for(int i = 0; i < secondStrArray.length(); i++) {
 			for(int j = i + 1; j <= secondStrArray.length(); j++) {
 				secondStrSubStrCombi.add(secondStrArray.substring(i, j));
 			}
 		}
-		
+		System.out.println("Enter second string::" + secondStrSubStrCombi.toString());
 		List<String> firstCombi = new ArrayList<String>();
+		firstCombi.add(firstStrArray);
 		for(String searchStr : firstStrSubStrCombi) {
 			firstCombi.add(firstStrArray.replace(searchStr, ""));
 		}
 		
+		System.out.println("Enter first::" + firstCombi.toString());
+		
 		List<String> secCombi = new ArrayList<String>();
+		secCombi.add(secondStrArray);
 		for(String searchStr : secondStrSubStrCombi) {
 			secCombi.add(secondStrArray.replace(searchStr, ""));
 		}
+		System.out.println("Enter second::" + secCombi.toString());
 		
 		String maxLenMatchingStr = "";
 		for(String searchStr : firstCombi) {
